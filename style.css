@@ -1,0 +1,62 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .container1
+  {
+      height: 500px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: palevioletred;
+  }
+  .content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  #search{
+      padding: 10px;
+      height: 50px;
+      width: 600px;
+      font-size: medium;
+      margin: 10px;
+      
+  }
+
+  #searchButton{
+      height: 45px;
+      width: 150px;
+      background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+  }
+  
+  #movieList {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .movieBlock {
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    margin: 5px;
+    min-height: 450px;
+    width: 350px;
+  }
+  .movieImage {
+    height: 400px;
+    width: 300px;
+  }
+  .movieTitle {
+    text-align: center;
+  }
